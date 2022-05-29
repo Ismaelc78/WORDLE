@@ -29,3 +29,13 @@ The two player mode requires one person to set the word while the other guesses.
 ###### 5. To win the game, win 3 out of 4 rounds. 
 
 
+
+## Set-Up Irvine32 Library and x86 in Visual Studio 
+#### To install the Irvine32 Library follow the instructions on [this link](http://asmirvine.com/gettingstartedvs2019/index.htm) prior to running the program.
+#### It will also guide you in setting up Visual Studio for x86. (You may use your prefered IDE).
+
+## Run Program
+#### After setting up the Irvine32 library, download the WERDS.asm and words.txt files and place them in the same directory.
+#### Run WERDS.asm to begin the in-console game.
+
+
