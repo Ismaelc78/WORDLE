@@ -1,15 +1,8 @@
 TITLE: WERDS.asm
 ;//Author: Ismael Contreras (completed requirements)
 ;//Description: The program is a variation of the game WORDLE
-;//				User must guess a five letter word to win a round.
+;//		User must guess a five letter word to win a round.
 ;//             Most wins out of 4 rounds is the winner.
-;//
-;// Extra Credit: 
-;//              1. Read words in from a file and randomly pick one for single player
-;//				 2. As the round is played, show the progress of words guessed. 
-;//              3. Displays words guessed with colored background after every guess
-;//                 Blue blackground for correct position, yellow = wrong position
-;//                 Black background = letter not found in word
 ;//Sources: Assembly.Language.For_.x86.Processors.Kip_.R..Irvine..6ed. 
 ;//Date: May 11, 2022 
 ;//=============================================================================================
@@ -413,7 +406,6 @@ ReadInWords PROC
 ;//Parameters: NA
 ;//Requires: Offset of wordList array in edi
 ;//Returns: list of words
-;//Site-Source: Assembly.Language.For_.x86.Processors.Kip_.R..Irvine..6ed. Chapter 5 pgs 142-145
 .data
 buf byte 1000 dup (?)
 bytesRead DWORD ?
