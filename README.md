@@ -17,7 +17,7 @@ The two player mode requires one person to set the word while the other guesses.
 ###### 3. If a letter is found in both the word and your guess, it will be highlighted either blue or yellow.
 ###### 4. If the letter is in the correct position, it will be highlighted blue. Otherwise, it is highlighted yellow.
 ###### 5. To win the game, correctly guess 3 out of 4 words. 
-
+![alt text](https://github.com/Ismaelc78/WORDLE/blob/main/screen.png "Highlights")
 
 ## Two Players: 
 ###### 1. The goal is to guess a random 5 letter word. There will be 4 alternating rounds. 
